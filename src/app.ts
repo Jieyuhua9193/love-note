@@ -6,12 +6,12 @@ App<IAppOption>({
     const logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
     // 登录
     wx.login({
       success: res => {
         console.log(res.code)
-        console.log('哈哈哈');
+        const obj: IKeyValue = {name: 'begonia'}
+        console.log('test', obj)
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       },
     })
