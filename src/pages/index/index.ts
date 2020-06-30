@@ -1,13 +1,17 @@
 // index.ts
 // 获取应用实例
-const app = getApp<IAppOption>()
+const app = getApp<IAppOption>();
+import * as lottie from 'lottie-miniprogram';
 
 Page({
   data: {
   },
-  // 事件处理函数
-  bindViewTap() {
-  },
   onLoad() {
+  },
+  onReady() {
+    wx.createSelectorQuery().select('#canvas').node(res => {
+      const canvas = res.node
+      lottie.setup(canvas)
+    }).exec()
   }
 })

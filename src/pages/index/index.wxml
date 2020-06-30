@@ -1,9 +1,12 @@
 <!--index.wxml-->
 <view class="container">
-  <navigator
+  <navigator 
     hover-class="none"
     class="link"
   >愿望池
   </navigator>
+  <canvas 
+    id="canvas" 
+    type="2d"
+  />
 </view>
-
