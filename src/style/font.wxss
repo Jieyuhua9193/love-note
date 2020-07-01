@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "qingshu";
+  src: url('http://cms.jieyuhua.top/qingshu.ttf') format('truetype');
+}
+
+.ft-qingshu {
+  font-family: "qingshu";
+}
+
+.ft-mini {
+  font-size: 20rpx;
+}
+
+.ft-small {
+  font-size: 24rpx;
+}
+
+.ft-xl {
+  font-size: 32rpx;
+}
+
+.ft-xxl {
+  font-size: 36rpx;
+}
+
+.ft-lg {
+  font-size: 40rpx;
+}
