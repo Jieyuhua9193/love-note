@@ -3,10 +3,6 @@
   <navigator 
     hover-class="none"
     class="link"
-  >愿望池
-  </navigator>
-  <canvas 
-    id="canvas" 
-    type="2d"
-  />
+    url="/pages/wish/index"
+  >愿望池</navigator>
 </view>
