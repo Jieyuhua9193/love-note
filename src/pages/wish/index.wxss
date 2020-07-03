@@ -22,6 +22,6 @@ page {
 }
 .line {
   height:2px;
-  background: -webkit-linear-gradient(left, #fff 14%,#fff 50%,#333 100%);
+  background: -webkit-linear-gradient(left, #fff 14%,#fff 50%,rgba(12,12,12,0.1) 100%);
   border-radius: 5px;
 }
