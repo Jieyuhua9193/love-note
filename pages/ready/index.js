@@ -1,18 +1,20 @@
 Page({
   data: {
     animation: {},
+    ani: null,
   },
-  start() {
-    console.log("start ani");
-    const Animation = wx.createAnimation({
+  onLoad() {
+    this.ani = wx.createAnimation({
       duration: 400,
       timingFunction: "ease-in-out",
     });
-    Animation.scale(2, 2).rotate(34);
-    Animation.translate(200, 100);
-    Animation.step();
+  },
+  start() {
+    this.ani.scale(2, 2).rotate(34);
+    this.ani.translate(200, 100);
+    this.ani.step();
     this.setData({
-      animation: Animation.export(),
+      animation: this.ani.export(),
     });
   },
 });
