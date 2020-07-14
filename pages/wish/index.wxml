@@ -1,0 +1,12 @@
+<view class="bg">
+  <view class="content">
+    <view class="text-light ft-qingshu main-text">
+      <text class="ft-lg">许</text>
+      <text class="ft-xxl">个</text>
+      <text class="ft-xl">愿</text>
+      <text class="ft-small">望</text>
+      <text class="ft-mini">吧 !</text>
+      <view class="line"></view>
+    </view>
+  </view>
+</view>

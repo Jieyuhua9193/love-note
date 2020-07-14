@@ -1,0 +1,27 @@
+page {
+  background-image: url('https://wx1.sbimg.cn/2020/07/01/2WX8o.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color:transparent;
+  color: #fff;
+}
+.bg {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  position: relative;
+  top: -20vh;
+}
+.main-text {
+  transform: scale(2.5) rotate(-15deg);
+}
+.line {
+  height:2px;
+  background: -webkit-linear-gradient(left, #fff 14%,#fff 50%,rgba(12,12,12,0.1) 100%);
+  border-radius: 5px;
+}
