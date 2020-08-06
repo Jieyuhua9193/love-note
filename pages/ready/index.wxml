@@ -1,4 +1,4 @@
 <view>
-  <view animation="{{ animation }}" class="ani-block"></view>
-  <button bindtap="start">动画</button>
+  <text>测试页面</text>
+  <jelly-button />
 </view>
